@@ -1,16 +1,26 @@
-Bratu Denis - grupa 132 -- 2025
+# 🐾 Treat Rush - 2D Adventure Game
 
-   ℹ️ Informații generale:
-   
-❕ Versiunea de SFML utilizată este 3.0.0;
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![SFML](https://img.shields.io/badge/SFML_3.0.0-8CC445?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 
-🎨 Grafica este realizată de mine.
+A 2D puzzle-adventure game developed in **C++** using the **SFML 3.0.0** library. The project heavily focuses on advanced Object-Oriented Programming (OOP) principles, memory management, and custom game physics. 
 
-   🎮 Cum se joacă:
-   
-  În acest joc, jucătorul controlează o pisică, Miți, cu scopul de a ajunge la frigider, care din păcate este păzit de câinele Badi. Pentru a avansa, jucătorul poate interacționa cu obiecte din casă. În cazul în care are nevoie de ajutor, jucătorul poate cere indicii de la pisica ajutor Flafi.
-  
-  Jucătorul controlează pisica prin săgețile stânga și dreapta pentru deplasare și prin săgeata sus pentru salt. Interacțiunea cu obiectele din casă se face apăsând pe tasta X. Pentru a plasa obiecte din inventar pe jos, jucătorul poate apăsa pe tasta F. Indiciile se obțin apăsând click-stânga pe pisica ajutor. Pentru restart, se poate apăsa tasta R.
+*All pixel art graphics and animations were independently designed and illustrated.*
 
-Resurse:
-https://www.sfml-dev.org/tutorials/3.0/
+## 🎮 Gameplay & Story
+Take control of **Miți** the cat on a very important mission: reaching the fridge! Unfortunately, the path is blocked by the guard dog, **Badi**. To advance, you must explore the house, interact with various items, and solve puzzles. Stuck? Click on the helper cat, **Flafi**, for hints!
+
+### Controls:
+* **Left / Right Arrows:** Move
+* **Up Arrow:** Jump
+* **X:** Interact with objects
+* **F:** Drop an item from the inventory
+* **Left-Click on Flafi:** Get a hint
+* **R:** Restart the game
+
+## ⚙️ Technical Highlights
+This project was built from scratch to demonstrate solid software engineering practices in game development:
+
+* **Design Patterns:** Implemented the **Singleton** pattern for global state management (e.g., Game Manager) and the **Factory** pattern for dynamic entity/object generation.
+* **Custom Physics:** Engineered a custom 2D collision detection algorithm (without relying on external physics engines) to handle player-environment interactions perfectly.
+* **Asset Management:** Optimized the rendering pipeline for SFML to handle custom sprites, textures, and frame-rate independent animations.
